@@ -1,0 +1,77 @@
+{
+  "nodes": {
+    "athame": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564936715,
+        "narHash": "sha256-2aYAgBWEZBu+4vPbdLeMsYpFUCD3UUM7r7RSLZoOITQ=",
+        "owner": "ardagnir",
+        "repo": "athame",
+        "rev": "ded4200cb3312334d99ace794c4b308cd45f6b6e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ardagnir",
+        "ref": "v1.2",
+        "repo": "athame",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1634851050,
+        "narHash": "sha256-N83GlSGPJJdcqhUxSCS/WwW5pksYf3VP1M13cDRTSVA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c91f3de5adaf1de973b797ef7485e441a65b8935",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "master",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1635403963,
+        "narHash": "sha256-0actzfzBAXvvDJ/EvPSGbtCPXUwSObQrcq0RpsPWZgA=",
+        "path": "/nix/store/8m51fq11k6nrgvqiphjxrdgy701bmpzm-source",
+        "rev": "2deb07f3ac4eeb5de1c12c4ba2911a2eb1f6ed61",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "athame": "athame",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "vimbed": "vimbed"
+      }
+    },
+    "vimbed": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564935303,
+        "narHash": "sha256-Z1N7NAkzlUfCdjtWT0Nhyp8pB5haTx5V2M2hfegqd+8=",
+        "owner": "ardagnir",
+        "repo": "vimbed",
+        "rev": "6b8e8cb45353167988c7bbbe2d9cd4d41989e490",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ardagnir",
+        "ref": "master",
+        "repo": "vimbed",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
